@@ -65,7 +65,7 @@ describe('contains', function() {
   });
 
   it('should return true if a collection contains a user-specified value', function() {
-    expect(myFunctions.contains([  4,   5,   6], 5)).to.equal(true);
+    expect(myFunctions.contains([4, 5, 6], 5)).to.equal(true);
   });
 
 });
